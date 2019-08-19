@@ -1,6 +1,8 @@
 # CR10S-Pro-BL-Touch-Install-Guide
 How to flash the LCD and Firmware for the BL touch on the CR10S-Pro
 
+### IMPORTANT: On our youtube video of this installation, there is no prompt for flashing the Marlin firmware required for this modification. You may flash Marlin using the instructions below at any time, and it is mandatory for this modification to work. 
+
 ## Flashing The LCD
 
 1) Visit InsanityAutomation's Marlin Creality_DWINTEST Github branch here: https://github.com/InsanityAutomation/Marlin/tree/Creality_DWINTest
@@ -20,7 +22,7 @@ How to flash the LCD and Firmware for the BL touch on the CR10S-Pro
 
 ### Configuring and Uploading Marlin
 
-1) Open 'Marlin.ino' located in the 'Marlin-Creality_DWINTest' >>>> 'Marlin' folders.
+1) Open 'Marlin.ino' located in the 'Marlin-Creality_DWINTest' >>>> 'Marlin' folders that you downloaded in the instructions above. 
 2) When the software loads, click the green 'Configuration.h' tab.
 3) Around line 98, you will see '//#define ABL_BLTOUCH' - remove the two slashes in the front to enable this setting.
 4) Go to Sketch > Upload.
